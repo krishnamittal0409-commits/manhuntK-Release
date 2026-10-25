@@ -2,7 +2,7 @@
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-Paper%201.21.x-brightgreen.svg)](https://papermc.io)
 [![Java Version](https://img.shields.io/badge/Java-21-blue.svg)](https://adoptium.net)
-[![Latest Release](https://img.shields.io/github/v/release/krishnamittal0409-commits/manhuntK-releases?color=orange&label=Latest%20Version)](https://github.com/krishnamittal0409-commits/manhuntK-releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/krishnamittal0409-commits/manhuntK-Release?color=orange&label=Latest%20Version)](https://github.com/krishnamittal0409-commits/manhuntK-Release/releases/latest)
 
 A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed from the ground up for **Paper 1.21+** Minecraft servers.
 
@@ -12,7 +12,7 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 
 > [!IMPORTANT]
 > **Download the Latest Protected JAR:**  
-> 👉 **[Download manhuntK.jar (Latest Release)](https://github.com/krishnamittal0409-commits/manhuntK-releases/releases/latest)**
+> 👉 **[Download manhuntK.jar (Latest Release)](https://github.com/krishnamittal0409-commits/manhuntK-Release/releases/latest)**
 
 *Note: Older releases are automatically retired upon each new release to ensure all servers run the most up-to-date, secure version.*
 
