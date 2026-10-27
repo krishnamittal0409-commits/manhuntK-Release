@@ -25,6 +25,8 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
   * Right-click your tracking compass to open an interactive chest GUI displaying all alive speedrunners' real player skin heads.
   * Live distance meter and dimension indicators (`Overworld 🌿`, `The Nether 🔥`, `The End 🌌`).
   * 1-click lock needle onto any speedrunner.
+* **Random Seed & In-Game World Reset:**
+  * Reset worlds directly from the game! One click wipes `world`, `world_nether`, and `world_the_end`, writes a brand new random seed, and restarts the server cleanly.
 * **Teammate-Only Health Visibility:**
   * Hunters can only see fellow Hunters' live health. Enemy speedrunner health is hidden (`???`).
   * Speedrunners can only see fellow Speedrunners' live health.
