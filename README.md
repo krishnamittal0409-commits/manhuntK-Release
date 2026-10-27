@@ -3,6 +3,7 @@
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-Paper%201.21.x-brightgreen.svg)](https://papermc.io)
 [![Java Version](https://img.shields.io/badge/Java-21-blue.svg)](https://adoptium.net)
 [![Latest Release](https://img.shields.io/github/v/release/krishnamittal0409-commits/manhuntK-Release?color=orange&label=Latest%20Version)](https://github.com/krishnamittal0409-commits/manhuntK-Release/releases/latest)
+[![Discord](https://img.shields.io/badge/Discord-kzen__fights-5865F2?logo=discord&logoColor=white)](https://discord.com)
 
 A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed from the ground up for **Paper 1.21+** Minecraft servers.
 
@@ -46,8 +47,9 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 | :--- | :--- | :--- |
 | `/manhunt menu` *(or `/mh gui`)* | `manhunt.admin` | Opens the modern interactive control dashboard |
 | `/compass` | `manhunt.compass` | Retrieves or refreshes your tracking radar compass |
+| `/manhunt newseed` | `manhunt.admin` | Opens confirmation to wipe worlds and restart with a random seed |
 | `/manhunt start` | `manhunt.admin` | Starts the match and equips hunters with compasses |
-| `/manhunt stop` | `/manhunt.admin` | Halts tracking and pauses the game |
+| `/manhunt stop` | `manhunt.admin` | Halts tracking and pauses the game |
 | `/manhunt reset` | `manhunt.admin` | Clears all teams and resets game state |
 | `/manhunt add runner <player>` | `manhunt.admin` | Adds a player as a Speedrunner |
 | `/manhunt add hunter <player>` | `manhunt.admin` | Adds a player as a Hunter |
@@ -57,12 +59,18 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 
 ---
 
-## 🔒 Server Licensing Notice
+## 💬 Licensing & Contact
 
-`manhuntK` operates under **Node-Locked IP:Port Server Licensing**.
-Each server installation must be authorized by **Krishna Mittal**. Unauthorized servers attempting to run this plugin will automatically be shut down by the cloud verification system.
+`manhuntK` uses **Node-Locked IP:Port Server Licensing** to protect against unauthorized redistribution.
 
-To license or transfer your server, contact the developer.
+To purchase a license, activate your server, or request a host transfer:
+* **Discord:** **`kzen_fights`** (Kzen)
+* **Email:** `krishnamittal0409@gmail.com`
+
+> **⚡ Quick 3-Step Activation Guide:**  
+> 1. Download `manhuntK.jar` and drop it into your server's `plugins/` folder.  
+> 2. Start the server once. Your console will print your **Server Address** (e.g. `147.135.38.12:25565`).  
+> 3. Send that address to **`kzen_fights`** on Discord to get your server activated in seconds!
 
 ---
 
