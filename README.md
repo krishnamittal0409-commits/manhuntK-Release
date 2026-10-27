@@ -21,6 +21,12 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 
 ## ✨ Features
 
+* **Universal Interactive GUI (`/mhgui` for Everyone):**
+  * All players (non-op and op alike) can run `/mhgui` to open the sleek 45-slot dashboard.
+* **Player Self-Team Selection & Admin Lock Hierarchy:**
+  * Before the match begins, players can pick and switch their own teams (Hunters or Speedrunners).
+  * **Operator Lock Protection:** If an operator (OP) assigns or locks a player (`/manhunt add` or `/manhunt lock`), that player's team is locked and cannot be changed by the player. Only an OP can change or unlock them.
+  * **Mid-Game Security:** Once the match starts, normal players cannot change teams or start/stop the match. Only operators have mid-game team reassignment and match control privileges.
 * **Multi-Speedrunner & Multi-Hunter Compatibility:** Play with any number of hunters and runners simultaneously.
 * **Modern In-Game Radar Menu:**
   * Right-click your tracking compass to open an interactive chest GUI displaying all alive speedrunners' real player skin heads.
@@ -34,8 +40,6 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 * **Cross-Dimension Compass Tracking:**
   * Uses modern Paper 1.21 Lodestone tracking coordinates (works across Overworld, Nether, and End).
   * Automatically points to the speedrunner's last portal exit when in different dimensions.
-* **Interactive Control Dashboard:**
-  * Run `/manhunt menu` or `/mh gui` to manage matches, select teams, or reset with one click.
 * **Auto-Refreshing Radar:** Compass needle recalculates automatically every 5 seconds (100 ticks).
 * **Automatic Update Alerts:** Server administrators receive in-game pings whenever a new update is released.
 
@@ -45,17 +49,18 @@ A modern, high-performance **Manhunt (Speedrunner vs Hunter)** plugin designed f
 
 | Command | Permission | Description |
 | :--- | :--- | :--- |
-| `/manhunt menu` *(or `/mh gui`)* | `manhunt.admin` | Opens the modern interactive control dashboard |
-| `/compass` | `manhunt.compass` | Retrieves or refreshes your tracking radar compass |
-| `/manhunt newseed` | `manhunt.admin` | Opens confirmation to wipe worlds and restart with a random seed |
-| `/manhunt start` | `manhunt.admin` | Starts the match and equips hunters with compasses |
-| `/manhunt stop` | `manhunt.admin` | Halts tracking and pauses the game |
-| `/manhunt reset` | `manhunt.admin` | Clears all teams and resets game state |
-| `/manhunt add runner <player>` | `manhunt.admin` | Adds a player as a Speedrunner |
-| `/manhunt add hunter <player>` | `manhunt.admin` | Adds a player as a Hunter |
-| `/manhunt remove <runner\|hunter> <player>` | `manhunt.admin` | Removes a participant |
-| `/manhunt list` | `manhunt.admin` | Displays match status, dimensions, and teammate health |
-| `/manhunt reload` | `manhunt.admin` | Reloads `config.yml` |
+| `/mhgui` *(or `/manhunt menu`)* | **Everyone** | Opens the modern interactive GUI control center |
+| `/compass` | `manhunt.compass` *(default: all)* | Retrieves or refreshes your tracking radar compass |
+| `/manhunt list` | **Everyone** | Displays match status, team rosters, locks, and dimensions |
+| `/manhunt start` | `manhunt.admin` *(op)* | Starts the match and equips hunters with compasses |
+| `/manhunt stop` | `manhunt.admin` *(op)* | Halts tracking and pauses the game |
+| `/manhunt reset` | `manhunt.admin` *(op)* | Clears all teams, locks, and resets game state |
+| `/manhunt add <runner\|hunter> <player>` | `manhunt.admin` *(op)* | Assigns and locks a player to a team |
+| `/manhunt remove <runner\|hunter> <player>` | `manhunt.admin` *(op)* | Removes and unlocks a participant |
+| `/manhunt lock <player>` | `manhunt.admin` *(op)* | Locks a player's team so they cannot switch |
+| `/manhunt unlock <player>` | `manhunt.admin` *(op)* | Unlocks a player's team so they can self-select |
+| `/manhunt newseed` | `manhunt.admin` *(op)* | Opens confirmation to wipe worlds and restart with a random seed |
+| `/manhunt reload` | `manhunt.admin` *(op)* | Reloads `config.yml` |
 
 ---
 
