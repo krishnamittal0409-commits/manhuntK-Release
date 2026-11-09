@@ -79,6 +79,8 @@ To purchase a license, activate your server, or request a host transfer:
 
 ---
 
-## 📄 License
+## 📄 License & Rights
 
-Distributed under the MIT License. Copyright (c) 2026 Krishna Mittal.
+Copyright © 2026 Krishna Mittal. All Rights Reserved.
+
+All rights, title, and interest in and to this software and associated documentation belong exclusively to Krishna Mittal. Unauthorized copying, modification, distribution, sublicensing, decompilation, or reverse engineering of this software via any medium is strictly prohibited.
